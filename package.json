@@ -1,0 +1,79 @@
+{
+  "name": "webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "admin-lte": "^3.1.0",
+    "axios": "^1.2.2",
+    "core-js": "^3.6.5",
+    "flush-promises": "^1.0.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "json-server": "^0.17.1",
+    "jw-vue-pagination": "^1.0.3",
+    "router": "^2.0.0-beta.1",
+    "routes": "^2.1.0",
+    "sinon": "^15.0.1",
+    "sweetalert": "^2.1.2",
+    "test-utils": "^1.1.1",
+    "vee-validate": "^4.7.3",
+    "vue": "^3.2.45",
+    "vue-bootstrap-pagination": "^2.10.3",
+    "vue-pagination-2": "^3.1.0",
+    "vue-router": "^4.0.13",
+    "vue-router-mock": "^0.1.9",
+    "vue-sweetalert2": "^5.0.5",
+    "vue-validate": "^1.0.1",
+    "vue3-pagination": "^1.0.16",
+    "vuejs-paginate": "^2.1.0",
+    "vuejs-paginate-next": "^1.0.2",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/test-utils": "^2.2.7",
+    "@vue/vue3-jest": "^27.0.0-alpha.1",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.0.6",
+    "eslint-plugin-vue": "^7.20.0",
+    "jest": "^27.5.1",
+    "moxios": "^0.4.0",
+    "vuex-mock-store": "^0.0.8"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "rules": {
+    "no-console": false
+  }
+}
